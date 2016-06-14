@@ -1,0 +1,90 @@
+.hero1{
+background-image: url(../img/superman-bg.jpg);
+}
+.hero2{
+background-image: url(../img/batman-bg.jpg);
+}
+.hero3{
+background-image: url(../img/captain-america-bg.jpg);
+}
+.hero4{
+background-image: url(../img/iron-man-bg.jpg);
+}
+.hero1-overlay{
+background-image: url(../img/superman-bg-overlay.jpg);
+}
+.hero2-overlay{
+background-image: url(../img/batman-bg-overlay.jpg);
+}
+.hero3-overlay{
+background-image: url(../img/captain-america-bg-overlay.jpg);
+}
+.hero4-overlay{
+background-image: url(../img/iron-man-bg-overlay.jpg);
+}
+.fixed-bg{
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;  
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*.break{
+  height: 2000px;
+}*/
+.overlay{
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.symbol{
+  max-width: 30%;
+}
+.symbol img{
+  width: 100%; 
+  padding: 55px;
+} 
+.text-box{
+  background-color: rgba(255,255,255,0.25);
+  border: 1px solid rgba(255,255,255,0.35);
+  padding: 20px 40px 30px 40px;
+  max-width: 60%; 
+}
+.text-box h1{
+  color: #ffffff;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+}
+.text-box p{
+  color: #f6f6f6; 
+  font-size: 1.25em;
+  font-family: 'Lato', sans-serif;
+}
+/*navbar*/
+.navbar-default{
+  background-color:rgba(248,248,248,0.5);
+}
+.navbar-default .navbar-nav>li>a{
+  color: white;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+.navbar-brand{
+  padding: 5px 10px;
+}
+.navbar-brand img{
+  height: 100%;
+}
