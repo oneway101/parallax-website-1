@@ -55,6 +55,8 @@ background-image: url(../img/iron-man-bg-overlay.jpg);
 .symbol img{
   width: 100%; 
   padding: 55px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
 } 
 .text-box{
   background-color: rgba(255,255,255,0.25);
@@ -71,16 +73,21 @@ background-image: url(../img/iron-man-bg-overlay.jpg);
   color: #f6f6f6; 
   font-size: 1.25em;
   font-family: 'Lato', sans-serif;
+  transition: all 0.25s ease-out;
 }
 /*navbar*/
 .navbar-default{
-  background-color:rgba(248,248,248,0.5);
+  background-color: transparent;
+  border: none;
 }
 .navbar-default .navbar-nav>li>a{
-  color: white;
+  color: rgba(255,255,255,0.5);
   font-family: 'Bangers', cursive;
   font-size: 1.5em;
   letter-spacing: 2px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-nav>li>a:active,.navbar-nav>li>a:focus,.navbar-nav>li>a:visited{
+  color: white !important;
 }
 .navbar-brand{
   padding: 5px 10px;
